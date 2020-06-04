@@ -83,7 +83,7 @@
             "name": "time"
           },
           {
-            "name": "population_aged_65plus_years_total_number"
+            "name": "income_per_person_gdppercapita_ppp_inflation_adjusted"
           }
         ],
         "primaryKey": [
@@ -535,6 +535,16 @@
           "country",
           "time"
         ],
+        "value": "income_per_person_gdppercapita_ppp_inflation_adjusted",
+        "resources": [
+          "income_per_person_gdppercapita_ppp_inflation_adjusted--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "country",
+          "time"
+        ],
         "value": "population_aged_65plus_years_both_sexes_percent",
         "resources": [
           "population_aged_65plus_years_both_sexes_percent--by--geo--time"
@@ -547,7 +557,6 @@
         ],
         "value": "population_aged_65plus_years_total_number",
         "resources": [
-          "income_per_person_gdppercapita_ppp_inflation_adjusted--by--geo--time",
           "population_aged_65plus_years_total_number--by--geo--time"
         ]
       },
@@ -606,6 +615,16 @@
           "geo",
           "time"
         ],
+        "value": "income_per_person_gdppercapita_ppp_inflation_adjusted",
+        "resources": [
+          "income_per_person_gdppercapita_ppp_inflation_adjusted--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
         "value": "population_aged_65plus_years_both_sexes_percent",
         "resources": [
           "population_aged_65plus_years_both_sexes_percent--by--geo--time"
@@ -618,7 +637,6 @@
         ],
         "value": "population_aged_65plus_years_total_number",
         "resources": [
-          "income_per_person_gdppercapita_ppp_inflation_adjusted--by--geo--time",
           "population_aged_65plus_years_total_number--by--geo--time"
         ]
       },
